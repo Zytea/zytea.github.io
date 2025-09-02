@@ -1,6 +1,6 @@
 # 我的GitHub博客
 
-![随便一张图片](https://picsum.photos/300)
+![London Bridge](resources/LondonBridge.jpg)
 
 ## 自我介绍
 姓名：张三  
