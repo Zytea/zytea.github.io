@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 转换成的md文件
-permalink: /2025/09/03/api-demo/view/
+permalink: assets/pdf2md/result/
 ---
 
 
