@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Jekyll!"
 date: 2025-09-03 08:22:21 +0800
-categories: jekyllc
+categories: jekyll
 ---
 
 此乃系统生成，不可不品尝。

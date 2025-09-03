@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 分类
-permalink: /docs/categories/
+permalink: /categories/
 ---
 
 <ul>
