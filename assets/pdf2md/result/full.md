@@ -1,3 +1,10 @@
+---
+layout: page
+title: 转换成的md文件
+permalink: /2025/09/03/api-demo/view/
+---
+
+
 # 2024年学生IT手册
 
 ![](images/c87600b6bf25e01d30f9d48b75c4a2e4d504770d602ff92bd68b5ab894b1141e.jpg)
