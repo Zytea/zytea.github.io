@@ -18,36 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Zyteaの小站
-author: ZTE
-email: 124090991@link.cuhk.edu.cn
-description: >- # this means to ignore newlines until "baseurl:"
-  Zyteaの小站，记录生活点滴与学习笔记。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Zytea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Zytea 
-twitter_username: zyteauth
-
-# Jekyll
-logo: "/assets/images/Astesia.png" # 你自己的logo（需要文件）
-favicon: "/assets/images/favicon.ico" # 站点图标（需要文件）
-
-paginate: 5 # 分页，每页显示几篇文章
-
-timezone: Asia/Shanghai # 时区
-
-permalink: /:year/:month/:day/:title/ # 文章链接样式
-
-google_analytics: G-F9MHHXE0XZ   # Google分析ID
-show_excerpts: true                # 显示文章摘要
-excerpt_separator: "<!--more-->"
-
 # 定制导航栏（header）
 header_pages:
   - categories.md
   - about.md
 
-favicon: "/docs/assets/images/favicon.ico"
+title: Zyteaの小站
+author: ZTE
+email: 124090991@link.cuhk.edu.cn
+description: Zyteaの小站，记录生活点滴与学习笔记。
+github_username: Zytea
+twitter_username: zyteauth
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://Zytea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+paginate: 5 # 分页，每页显示几篇文章
+timezone: Asia/Shanghai # 时区
+permalink: /:year/:month/:day/:title/ # 文章链接样式
+google_analytics: G-F9MHHXE0XZ   # Google分析ID
+show_excerpts: true                # 显示文章摘要
+excerpt_separator: "<!--more-->"
+
+
+
 # Build settings
 theme: minima
 plugins:
@@ -62,12 +56,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - .sass-cache/
+# - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
