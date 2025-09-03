@@ -7,9 +7,18 @@ permalink: /categories/
 <ul>
   {% for category in site.categories %}
     <li>
-      <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}/">
+      <a class="category-post-title" href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}/">
         {{ category[0] }} ({{ category[1].size }})
       </a>
     </li>
   {% endfor %}
 </ul>
+
+<style>
+.category-post-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+</style>

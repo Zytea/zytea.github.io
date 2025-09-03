@@ -1,7 +1,7 @@
 ---
 layout: categories
-title: 分类：Jekyll
-category: Jekyll
-permalink: /categories/Jekyll/
+title: 分类：jekyll
+category: jekyll
+permalink: /categories/jekyll/
 ---
 
